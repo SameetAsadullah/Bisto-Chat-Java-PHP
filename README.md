@@ -17,7 +17,7 @@ An `Android Chatting Application` coded in `Java Language` using `Android Studio
 1) You must `Run this Project` on Android Studio.
 2) You must `Install XAMPP` (Apache + MySQL).
 3) After installing XAMPP, go to `XAMPP/htdocs` folder and paste the files from PHP-Files to the htdocs folder.
-4) `Configure Your IP` where required.
+4) `Configure Your IP` where required i.e, in Login.java.
 5) Manage the `Database and Tables` using XAMPP.
 
 ### Working Screenshots
