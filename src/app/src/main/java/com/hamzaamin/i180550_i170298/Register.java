@@ -30,7 +30,7 @@ public class Register extends AppCompatActivity {
         email = findViewById(R.id.EmailAddress);
         pass = findViewById(R.id.Password);
         confirmPass = findViewById(R.id.ConfirmPassword);
-        Id.setIp("http://172.17.51.252/assignment4/");
+        Id.setIp("http://192.168.18.81/PHP_Files/");
         TextView login = findViewById(R.id.Login);
         login.setOnClickListener(view -> login());
 
