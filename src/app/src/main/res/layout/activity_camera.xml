@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c1b1b"
+    tools:context=".CameraActivity">
+
+    <ImageView
+        android:id="@+id/takenImage"
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send to recent contacts"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/takenImage"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignTop="@id/text"
+        android:layout_marginTop="40dp"
+        tools:listitem="@layout/fragment_contact" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        app:backgroundTint="#3A3A3A"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/deletebutton"
+        android:layout_alignTop="@id/list"
+        android:layout_marginTop="240dp"
+        />
+</RelativeLayout>

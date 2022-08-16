@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">i180564_i180449</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="tab_text_1">Call</string>
+    <string name="tab_text_2">Camera</string>
+    <string name="tab_text_3">Chat</string>
+    <string name="tab_text_4">People</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ipaddress">http://192.168.100.8/assignment4/</string>
+</resources>

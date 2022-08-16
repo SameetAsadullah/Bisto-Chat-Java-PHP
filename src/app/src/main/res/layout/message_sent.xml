@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/msll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/sendbubble"
+        >
+
+        <EditText
+            android:id="@+id/text_sent"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/sendbubble"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:text="hello"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time_date_text_sent"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_sent"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="start"
+            android:text="DD:MM:YY HH:MM"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

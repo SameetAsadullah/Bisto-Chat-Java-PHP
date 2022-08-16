@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Uniii/Github Repositories/Bisto-Chat-Java-PHP/src/app/src/main/res/layout/activity_create_profile.xml" value="0.2" />
+        <entry key="..\:/Uniii/Github Repositories/Bisto-Chat-Java-PHP/src/app/src/main/res/layout/fragment_chat.xml" value="0.1" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.3138888888888889" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/drawable/ic_baseline_video_call_24.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.3138888888888889" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_call.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_create_profile.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_dashboard.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_login_screen.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_register.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_splash.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_video_call.xml" value="0.28396739130434784" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_call.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_call_items.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_contact_list.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Aroshia/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_dashboard.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/activity_chat.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/contact_item.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_camera.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_chat.xml" value="0.3625" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_chat_list.xml" value="0.271875" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/fragment_contact.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/message_rec.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/message_rec_img.xml" value="0.3625" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/message_sent.xml" value="0.3625" />
+        <entry key="..\:/Users/Hassan/AndroidStudioProjects/assignment_4/app/src/main/res/layout/message_sent_img.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
