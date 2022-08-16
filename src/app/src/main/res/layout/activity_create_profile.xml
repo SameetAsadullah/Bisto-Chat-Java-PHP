@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfile"
+    android:background="#1c1b1b"
+    >
+    <android.widget.Button
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:background="@drawable/back_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/backbtn"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE PROFILE"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="125dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/CreateProfile"
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/CreateProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/dp"
+        android:src="@drawable/ic_twotone_photo_camera"
+        />
+
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#8C8A8A8A"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#CC8A8A8A"
+        />
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/FirstName"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="#8C8A8A8A"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#CC8A8A8A" />
+
+    <EditText
+        android:id="@+id/Gender"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/LastName"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="#8C8A8A8A"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textCapCharacters"
+        android:textColorHint="#CC8A8A8A" />
+
+    <EditText
+        android:id="@+id/phoneNo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Gender"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="#8C8A8A8A"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColorHint="#CC8A8A8A" />
+
+    <EditText
+        android:id="@+id/AboutMe"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/phoneNo"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="#8C8A8A8A"
+        android:ems="10"
+        android:hint="AboutMe"
+        android:inputType="text"
+        android:textColorHint="#CC8A8A8A" />
+
+
+    <android.widget.Button
+        android:id="@+id/post"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/AboutMe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#36417A"
+        android:text="Create"
+        android:textSize="20sp" />
+
+</RelativeLayout>
