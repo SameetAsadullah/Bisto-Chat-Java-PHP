@@ -22,7 +22,7 @@ An `Android Chatting Application` coded in `Java Language` using `Android Studio
 3) Open Xampp and `Run Apache and MySQL Services`.
 4) `Click on Admin Button` infront of MySQL Service and a new tab will open in the browser.
 5) `Create a Database` there with the name `bisto_chat`.
-6) `Create the Following Tables` with the `Same Column Names` as displayed in the screenshots below:
+6) `Create the Following Tables` with the `Same Table Names` and `Same Column Names` as displayed in the screenshots below:
     
     <div align="center">
       <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/messages-table-ss.png" alt = "" width="800px"/>
