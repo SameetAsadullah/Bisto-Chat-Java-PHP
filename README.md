@@ -14,11 +14,38 @@ An `Android Chatting Application` coded in `Java Language` using `Android Studio
 - If a user `Takes Screenshot` of the chat, it gets send in the chat automatically.
 
 ### Manual
-1) You must `Run this Project` on Android Studio.
-2) You must `Install XAMPP` (Apache + MySQL).
-3) After installing XAMPP, go to `C:/xampp/htdocs` folder and paste the files from PHP-Files to the htdocs folder.
-4) `Configure Your IP` where required i.e, in Login.java.
-5) Manage the `Database and Tables` using XAMPP.
+1) [Download](https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true) and install `XAMPP` from the given link (`C:\xampp` folder should be there after installation).
+    ```
+    https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true
+    ```
+2) Paste the folder named as `PHP_Files` present [Here](https://github.com/SameetAsadullah/Hotel-Reservation-Application/blob/main/src/PHP_Files/) in `C:\xampp\htdocs` folder.
+3) Open Xampp and `Run Apache and MySQL Services`.
+4) `Click on Admin Button` infront of MySQL Service and a new tab will open in the browser.
+5) `Create a Database` there with the name `bisto_chat`.
+6) `Create the Following Tables` with the `Same Column Names` as displayed in the screenshots below:
+    
+    <div align="center">
+      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/messages-table-ss.png" alt = "" width="800px"/>
+    </div>
+    <br/>
+    <div align="center">
+      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/profile-table-ss.png" alt = "" width="800px"/>
+    </div>
+    
+7) Open the provided project in `Android Studio`.
+8) Get the `Current IP` of your pc and replace it here in the file named as `Login.java`:
+    
+    <div align="center">
+      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/login-change-ip-ss.png" alt = "" width="800px"/>
+    </div>
+
+8) Get the `Current IP` of your pc and replace it here in the file named as `Register.java`:
+    
+    <div align="center">
+      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/register-change-ip-ss.png" alt = "" width="800px"/>
+    </div>
+
+10) `Build the Project` and you are good to go :smiley:
 
 ### Working Screenshots
 <div align="center">
