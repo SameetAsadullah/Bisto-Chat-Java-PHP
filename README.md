@@ -9,7 +9,7 @@ An `Android Chatting Application` coded in `Java Language` using `Android Studio
 - User can set his `Personal Details`.
 - Users can `Send Text Messages` to eachother.
 - Users can `Send Image Messages` to eachother.
-- Users can `Edit Message` by long pressing it.
+- Users can `Edit Message` by clicking on it.
 - Users can `Delete Message` by long pressing it.
 - If a user `Takes Screenshot` of the chat, it gets send in the chat automatically.
 
@@ -64,7 +64,6 @@ An `Android Chatting Application` coded in `Java Language` using `Android Studio
 <br/>
 <div align="center">
   <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/chat-ss-1.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/edit-delete-message-ss.png" alt = "" width="200px"/>
   <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/edited-message-ss.png" alt = "" width="200px"/>
 </div>
   
