@@ -1,7 +1,7 @@
 <h1 align="center">Bisto Chat using Java and PHP</h1>
 
 ### Description
-An `Android Chatting Application` coded in `Java Language` using `Android Studio`. Backend is implemented in `PHP Language` i.e, APIs. It works exactly like `Whatsapp` i.e, user accounts get detected by their `Phone Numbers` and `Synced Automatically` with the application. User can then select any contact and start chatting with it.
+An `Android Chatting Application` coded in `Java Language` using `Android Studio`. Backend is implemented in `PHP Language` i.e, APIs. It works exactly like `WhatsApp` i.e, user accounts get detected by their `Phone Numbers` and `Synced Automatically` with the application. User can then select any contact and start chatting with it.
 
 ### Functionalities
 - User can `Login/Signup`.
