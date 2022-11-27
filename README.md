@@ -14,9 +14,9 @@ An `Android Chatting Application` coded in `Java Language` using `Android Studio
 - If a user `Takes Screenshot` of the chat, it gets send in the chat automatically.
 
 ### Manual
-1) [Download](https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true) and install `XAMPP` from the given link (`C:\xampp` folder should be there after installation).
+1) [Download](https://www.apachefriends.org/download.html) and install `XAMPP` from the given link (`C:\xampp` folder should be there after installation).
     ```
-    https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true
+    https://www.apachefriends.org/download.html
     ```
 2) Paste the folder named as `PHP_Files` present [Here](https://github.com/SameetAsadullah/Hotel-Reservation-Application/blob/main/src/PHP_Files/) in `C:\xampp\htdocs` folder.
 3) Open Xampp and `Run Apache and MySQL Services`.
