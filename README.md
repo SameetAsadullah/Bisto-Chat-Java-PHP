@@ -18,7 +18,7 @@ An `Android Chatting Application` coded in `Java Language` using `Android Studio
     ```
     https://www.apachefriends.org/download.html
     ```
-2) Paste the folder named as `PHP_Files` present [Here](https://github.com/SameetAsadullah/Hotel-Reservation-Application/blob/main/src/PHP_Files/) in `C:\xampp\htdocs` folder.
+2) Paste the folder named as `PHP_Files` present [Here](https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/src/PHP_Files/) in `C:\xampp\htdocs` folder.
 3) Open Xampp and `Run Apache and MySQL Services`.
 4) `Click on Admin Button` infront of MySQL Service and a new tab will open in the browser.
 5) `Create a Database` there with the name `bisto_chat`.
