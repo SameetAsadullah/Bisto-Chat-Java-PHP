@@ -57,11 +57,6 @@ public class MessageRVAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     }
 
 
-    //http://192.168.100.8/assignment4/deleteMessage.php?text=pog
-
-
-    //http://192.168.100.8/assignment4/updateMessage.php?text=[value-3]&newText=unpog
-
     void updateMessage(String text, String newText){
         String url=Id.getIp()+"updateMessage.php?text="+text+"&newText="+newText;
 
