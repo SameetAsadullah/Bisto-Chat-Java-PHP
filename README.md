@@ -1,72 +1,81 @@
-<h1 align="center">Bisto Chat using Java and PHP</h1>
+# Bisto Chat — Android and PHP
 
-### Description
-An `Android Chatting Application` coded in `Java Language` using `Android Studio`. Backend is implemented in `PHP Language` i.e, APIs. It works exactly like `WhatsApp` i.e, user accounts get detected by their `Phone Numbers` and `Synced Automatically` with the application. User can then select any contact and start chatting with it.
+A full-stack messaging prototype with a Java Android client and a PHP/MySQL API. The application covers user profiles, contact discovery, text and image conversations, message editing/deletion, camera integration, and experimental peer-to-peer calling.
 
-### Functionalities
-- User can `Login/Signup`.
-- User can set his `Profile Picture`.
-- User can set his `Personal Details`.
-- Users can `Send Text Messages` to eachother.
-- Users can `Send Image Messages` to eachother.
-- Users can `Edit Message` by clicking on it.
-- Users can `Delete Message` by long pressing it.
-- If a user `Takes Screenshot` of the chat, it gets send in the chat automatically.
+![Android](https://img.shields.io/badge/Android-Java-3DDC84?logo=android&logoColor=white)
+![PHP](https://img.shields.io/badge/API-PHP-777BB4?logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/database-MySQL-4479A1?logo=mysql&logoColor=white)
+![Checks](https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/actions/workflows/quality.yml/badge.svg)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-### Manual
-1) [Download](https://www.apachefriends.org/download.html) and install `XAMPP` from the given link (`C:\xampp` folder should be there after installation).
-    ```
-    https://www.apachefriends.org/download.html
-    ```
-2) Paste the folder named as `PHP_Files` present [Here](https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/src/PHP_Files/) in `C:\xampp\htdocs` folder.
-3) Open Xampp and `Run Apache and MySQL Services`.
-4) `Click on Admin Button` infront of MySQL Service and a new tab will open in the browser.
-5) `Create a Database` there with the name `bisto_chat`.
-6) `Create the Following Tables` with the `Same Table Names` and `Same Column Names` as displayed in the screenshots below:
-    
-    <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/messages-table-ss.png" alt = "" width="800px"/>
-    </div>
-    <br/>
-    <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/profile-table-ss.png" alt = "" width="800px"/>
-    </div>
-    
-7) Open the provided project in `Android Studio`.
-8) Get the `Current IP` of your pc and replace it here in the file named as `Login.java`:
-    
-    <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/login-change-ip-ss.png" alt = "" width="800px"/>
-    </div>
+## Features
 
-8) Get the `Current IP` of your pc and replace it here in the file named as `Register.java`:
-    
-    <div align="center">
-      <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/blob/main/extras/register-change-ip-ss.png" alt = "" width="800px"/>
-    </div>
+- Registration, login, and profile creation.
+- Contact and conversation lists.
+- Text and image messaging.
+- Message editing and deletion.
+- Profile-picture and message-image uploads.
+- Camera and screenshot-related interfaces.
+- Audio/video calling experiment using bundled web assets and the Sinch Android SDK.
 
-10) `Build the Project` and you are good to go :smiley:
+See [Architecture](docs/ARCHITECTURE.md) for the division between the Android app, PHP endpoints, MySQL schema, and calling experiment.
 
-### Working Screenshots
-<div align="center">
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/splash-screen-ss.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/login-ss.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/signup-ss.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/create-profile-ss.png" alt = "" width="200px"/>
-</div>
-<br/>
-<div align="center">
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/contacts-ss.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/chat-ss.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/chats-ss.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/chats-ss-1.png" alt = "" width="200px"/>
-</div>
-<br/>
-<div align="center">
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/chat-ss-1.png" alt = "" width="200px"/>
-  <img src = "https://github.com/SameetAsadullah/Bisto-Chat-Java-Firebase/blob/master/extras/edited-message-ss.png" alt = "" width="200px"/>
-</div>
-  
-### Contributors
+## Repository structure
+
+```text
+database/schema.sql   Reproducible MySQL schema
+src/app/              Java Android application
+src/PHP_Files/        PHP API endpoints
+src/app/src/main/assets/  Calling web assets
+extras/               Application and database screenshots
+```
+
+## Local setup
+
+### Backend
+
+1. Install PHP, MySQL, and a web server, or use XAMPP.
+2. Import `database/schema.sql`.
+3. Expose the files in `src/PHP_Files` through the web server.
+4. Configure the MySQL connection through environment variables:
+
+   ```bash
+   export BISTO_DB_HOST="localhost"
+   export BISTO_DB_PORT="3306"
+   export BISTO_DB_NAME="bisto_chat"
+   export BISTO_DB_USER="bisto_app"
+   export BISTO_DB_PASSWORD="your-password"
+   ```
+
+   `.env.example` lists the supported values. The PHP runtime must receive them from your shell, Apache, or PHP-FPM configuration.
+
+### Android client
+
+1. Open `src` in Android Studio.
+2. Update `api_base_url` in `src/app/src/main/res/values/strings.xml` if the backend is not running on the Android emulator's host machine.
+3. Sync Gradle and run the application on an emulator or device running API 21 or newer.
+
+The default `10.0.2.2` address is the Android emulator alias for the development computer. A physical device needs the computer's reachable LAN address and both devices must be on the same network.
+
+## Screenshots
+
+| Splash | Login | Registration | Profile |
+| --- | --- | --- | --- |
+| ![Splash screen](extras/splash-screen-ss.png) | ![Login screen](extras/login-ss.png) | ![Registration screen](extras/signup-ss.png) | ![Profile creation](extras/create-profile-ss.png) |
+
+| Contacts | Conversation | Chat list | Edited message |
+| --- | --- | --- | --- |
+| ![Contacts](extras/contacts-ss.png) | ![Conversation](extras/chat-ss.png) | ![Chat list](extras/chats-ss.png) | ![Edited message](extras/edited-message-ss.png) |
+
+## Project status and security
+
+This repository preserves a 2021 academic prototype. It is appropriate for studying the original Android/PHP integration, but it should not be exposed to the public internet. A production implementation needs prepared SQL statements, password hashing, authenticated API tokens, HTTPS, authorization checks, upload validation, and dependency upgrades.
+
+## Contributors
+
 - [Sameet Asadullah](https://github.com/SameetAsadullah)
 - [Tayyab Ali](https://github.com/DarkDragz)
+
+## License
+
+Licensed under the [MIT License](LICENSE).
