@@ -5,7 +5,7 @@ A full-stack messaging prototype with a Java Android client and a PHP/MySQL API.
 ![Android](https://img.shields.io/badge/Android-Java-3DDC84?logo=android&logoColor=white)
 ![PHP](https://img.shields.io/badge/API-PHP-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/database-MySQL-4479A1?logo=mysql&logoColor=white)
-![Checks](https://github.com/SameetAsadullah/Bisto-Chat-Java-PHP/actions/workflows/quality.yml/badge.svg)
+![Checks](https://github.com/SameetAsadullah/bisto-chat-php/actions/workflows/quality.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Features
