@@ -8,8 +8,8 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ANDROID = ROOT / "src/app/src/main"
-PHP = ROOT / "src/PHP_Files"
+ANDROID = ROOT / "mobile/app/src/main"
+PHP = ROOT / "api"
 
 
 def main() -> None:

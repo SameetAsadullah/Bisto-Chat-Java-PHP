@@ -5,7 +5,7 @@ local.properties
 *.iml
 *.apk
 *.aab
-src/app/google-services.json
-src/PHP_Files/upload/
-src/PHP_Files/message_images/
+mobile/app/google-services.json
+api/upload/
+api/message_images/
 .DS_Store

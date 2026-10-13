@@ -23,11 +23,11 @@ See [Architecture](docs/ARCHITECTURE.md) for the division between the Android ap
 ## Repository structure
 
 ```text
-database/schema.sql   Reproducible MySQL schema
-src/app/              Java Android application
-src/PHP_Files/        PHP API endpoints
-src/app/src/main/assets/  Calling web assets
-extras/               Application and database screenshots
+api/                       PHP API endpoints
+database/schema.sql        Reproducible MySQL schema
+mobile/                    Gradle Android project
+mobile/app/src/main/assets/  Calling web assets
+extras/                    Application and database screenshots
 ```
 
 ## Local setup
@@ -36,7 +36,7 @@ extras/               Application and database screenshots
 
 1. Install PHP, MySQL, and a web server, or use XAMPP.
 2. Import `database/schema.sql`.
-3. Expose the files in `src/PHP_Files` through the web server.
+3. Expose the files in `api` through the web server.
 4. Configure the MySQL connection through environment variables:
 
    ```bash
@@ -51,8 +51,8 @@ extras/               Application and database screenshots
 
 ### Android client
 
-1. Open `src` in Android Studio.
-2. Update `api_base_url` in `src/app/src/main/res/values/strings.xml` if the backend is not running on the Android emulator's host machine.
+1. Open `mobile` in Android Studio.
+2. Update `api_base_url` in `mobile/app/src/main/res/values/strings.xml` if the backend is not running on the Android emulator's host machine.
 3. Sync Gradle and run the application on an emulator or device running API 21 or newer.
 
 The default `10.0.2.2` address is the Android emulator alias for the development computer. A physical device needs the computer's reachable LAN address and both devices must be on the same network.

@@ -9,5 +9,5 @@ dependencyResolutionManagement {
         maven { url "https://jitpack.io" }
     }
 }
-rootProject.name = "assignment_4"
+rootProject.name = "BistoChat"
 include ':app'

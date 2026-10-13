@@ -11,11 +11,11 @@ Bisto consists of an Android client and a small PHP/MySQL backend.
 - A local SQLite helper stores device-side data.
 - Web assets provide the original peer-to-peer calling experiment.
 
-The API base URL is defined as `api_base_url` in `app/src/main/res/values/strings.xml`. The checked-in value targets a web server on the Android emulator's host machine and can be changed for a physical device.
+The API base URL is defined as `api_base_url` in `mobile/app/src/main/res/values/strings.xml`. The checked-in value targets a web server on the Android emulator's host machine and can be changed for a physical device.
 
 ## PHP API
 
-The scripts in `src/PHP_Files` expose the original profile and message operations:
+The scripts in `api` expose the original profile and message operations:
 
 - registration and login;
 - profile listing and lookup;
