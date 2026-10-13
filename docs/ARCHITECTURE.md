@@ -26,4 +26,4 @@ The scripts in `src/PHP_Files` expose the original profile and message operation
 
 ## Historical scope
 
-This is a 2021 academic prototype. Its API uses the original query patterns and plaintext password model. A production rewrite should use password hashing, prepared statements, authenticated tokens, HTTPS, per-user authorization, safer upload validation, and stable message identifiers.
+This repository retains the original 2021 API, including its query patterns and plaintext password model. A production rewrite should use password hashing, prepared statements, authenticated tokens, HTTPS, per-user authorization, safer upload validation, and stable message identifiers.

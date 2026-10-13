@@ -1,6 +1,6 @@
 # Bisto Chat — Android and PHP
 
-A full-stack messaging prototype with a Java Android client and a PHP/MySQL API. The application covers user profiles, contact discovery, text and image conversations, message editing/deletion, camera integration, and experimental peer-to-peer calling.
+A full-stack messaging system with a Java Android client and a PHP/MySQL API. The application covers user profiles, contact discovery, text and image conversations, message editing/deletion, camera integration, and peer-to-peer calling.
 
 ![Android](https://img.shields.io/badge/Android-Java-3DDC84?logo=android&logoColor=white)
 ![PHP](https://img.shields.io/badge/API-PHP-777BB4?logo=php&logoColor=white)
@@ -69,7 +69,7 @@ The default `10.0.2.2` address is the Android emulator alias for the development
 
 ## Project status and security
 
-This repository preserves a 2021 academic prototype. It is appropriate for studying the original Android/PHP integration, but it should not be exposed to the public internet. A production implementation needs prepared SQL statements, password hashing, authenticated API tokens, HTTPS, authorization checks, upload validation, and dependency upgrades.
+This repository preserves the original 2021 Android/PHP implementation. It should not be exposed to the public internet without prepared SQL statements, password hashing, authenticated API tokens, HTTPS, authorization checks, upload validation, and dependency upgrades.
 
 ## Contributors
 
